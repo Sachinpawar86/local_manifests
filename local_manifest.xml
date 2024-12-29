@@ -4,8 +4,8 @@
          fetch="https://github.com/Sachinpawar86" />
  
 <!-- Device Trees -->
-<project path="device/xiaomi/mojito/15" name="device_xiaomi_mojito_15" remote="Sachinpawar86" revision="Evo-15" />
-<project path="device/xiaomi/sm6150-common/15" name="android_device_xiaomi_sm6150-common_15" remote="Sachinpawar86" revision="Evo-15" />
+<project path="device/xiaomi/mojito/14" name="device_xiaomi_mojito_15" remote="Sachinpawar86" revision="Evo-15" />
+<project path="device/xiaomi/sm6150-common/14" name="android_device_xiaomi_sm6150-common_15" remote="Sachinpawar86" revision="Evo-15" />
 
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mojito" name="android_vendor_xiaomi_mojito" remote="Sachinpawar86" revision="14" />

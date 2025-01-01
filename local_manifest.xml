@@ -19,6 +19,9 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sachinpawar86" revision="mojito" />
 
 <!-- Viper4Android -->
-<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" />         
+<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" />
 
+<!-- Leica Camera -->
+<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachinpawar86" revision="main" />
+         
 </manifest>

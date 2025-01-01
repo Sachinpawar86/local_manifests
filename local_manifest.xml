@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+         
          <remote name="Sachinpawar86"
-         fetch="https://github.com/Sachinpawar86" />
+                 fetch="https://github.com/Sachinpawar86" />
  
 <!-- Device Trees -->
 <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-15" />

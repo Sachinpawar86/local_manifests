@@ -3,6 +3,8 @@
          
          <remote name="Sachinpawar86"
                  fetch="https://github.com/Sachinpawar86" />
+         <remote name="Sachin_07"
+                 fetch="https://gitlab.com/sachinbarange86" />
  
 <!-- Device Trees -->
 <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-14" />
@@ -22,6 +24,6 @@
 <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" />
 
 <!-- Leica Camera -->
-<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachinpawar86" revision="main" />
+<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachin_07" revision="main" />
          
 </manifest>

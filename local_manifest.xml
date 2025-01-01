@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+         
          <remote name="Sachinpawar86"
-         fetch="https://github.com/Sachinpawar86" />
+                 fetch="https://github.com/Sachinpawar86" />
  
 <!-- Device Trees -->
 <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-14" />
@@ -16,5 +17,8 @@
 
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sachinpawar86" revision="mojito" />
+
+<!-- Viper4Android -->
+<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" />         
 
 </manifest>

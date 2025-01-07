@@ -3,7 +3,8 @@
          
          <remote name="Sachinpawar86"
                  fetch="https://github.com/Sachinpawar86" />
-
+         <remote name="sp-projectss"
+                 fetch="https://gitlab.com/sp-projectss" />
 <!-- Device Trees -->
 <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="CustomCRD-15" />
 <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="Sachinpawar86" revision="CustomCRD-15" />
@@ -19,6 +20,6 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sachinpawar86" revision="mojito" />
 
 <!-- Leica Camera -->
-<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachinpawar86" revision="main" />         
+<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="sp-projectss" revision="main" />         
          
 </manifest>

@@ -14,7 +14,7 @@
 <project path="vendor/xiaomi/sm6150-common" name="android_vendor_xiaomi_sm6150-common" remote="Sachinpawar86" revision="14" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-X" />
+<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="Sachinpawar86" revision="test" />
 
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sachinpawar86" revision="mojito" />

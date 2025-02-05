@@ -16,6 +16,6 @@
 <project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="Sachinpawar86" revision="inline-rom" />
          
 <!-- Hardware -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sachinpawar86" revision="mojito" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="mojito" />
         
 </manifest>

@@ -26,5 +26,9 @@
 
 <!-- Viper4Android -->
 <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" />
-          
+
+<!-- Framework Native -->
+<remove-project name="frameworks_native" />
+<project path="frameworks/native" name="frameworks_native" remote="Sachinpawar86" revision="vic" />         
+         
 </manifest>

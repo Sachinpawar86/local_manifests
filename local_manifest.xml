@@ -29,6 +29,6 @@
 
 <!-- Framework Native -->
 <remove-project name="frameworks_native" />
-<project path="frameworks/native" name="frameworks_native" remote="Sachinpawar86" revision="vic" />         
+<project path="frameworks/native" name="sp-projectss/frameworks_native" remote="mojito" revision="vic" />         
          
 </manifest>

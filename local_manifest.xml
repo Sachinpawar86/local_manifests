@@ -30,6 +30,6 @@
 
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />
-<project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic-qpr1"
+<project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic-qpr1" />
         
 </manifest>

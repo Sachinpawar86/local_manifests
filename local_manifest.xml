@@ -20,4 +20,8 @@
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="mojito" />
 
+<!-- Build_Soong -->
+ <remove-project name="build_soong" />
+ <project path="build/soong" name="sp-projectss/build_soong" remote="Sachin" revision="vic" clone-depth="1" />         
+
 </manifest>

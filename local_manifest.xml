@@ -32,4 +32,8 @@
 <remove-project name="frameworks_native" />
 <project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic" clone-depth="1" />         
 
+<!-- Build_Soong -->
+<remove-project name="build_soong" />
+<project path="build/soong" name="sp-projectss/build_soong" remote="Project" revision="vic" clone-depth="1" />
+         
 </manifest>

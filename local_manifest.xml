@@ -30,7 +30,7 @@
 
 <!-- Vendor_Evolution -->
 <remove-project name="vendor_evolution" />
-<project path="vendor/lineage" name="sp-projectss/vendor_evolution" remote="Project" revision="vic-qpr1" clone-depth="1" />
+<project path="vendor/lineage" name="sp-projectss/vendor_evolution" remote="Project" revision="vic" clone-depth="1" />
 
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />

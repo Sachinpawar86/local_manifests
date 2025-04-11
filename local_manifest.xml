@@ -28,6 +28,10 @@
 <!-- Leica Camera -->
 <project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachin" revision="main" clone-depth="1" />
 
+<!-- Vendor_Evolution -->
+<remove-project name="vendor_evolution" />         
+<project path="vendor/lineage" name="sp-projectss/vendor_evolution" remote="Project" revision="vic-qpr1" clone-depth="1" />         
+
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />
 <project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic" clone-depth="1" />         

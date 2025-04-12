@@ -32,6 +32,10 @@
 <remove-project name="vendor_evolution" />
 <project path="vendor/lineage" name="sp-projectss/vendor_evolution" remote="Project" revision="vic" clone-depth="1" />
 
+<!-- Frameworks_Base -->
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="K4LCHAKRA/frameworks_base" remote="Project" revision="vic" clone-depth="1" />         
+
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />
 <project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic" clone-depth="1" />

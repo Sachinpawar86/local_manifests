@@ -34,7 +34,7 @@
 
 <!-- Frameworks_Base -->
 <remove-project name="frameworks_base" />
-<project path="frameworks/base" name="K4LCHAKRA/frameworks_base" remote="Project" revision="vic" clone-depth="1" />         
+<project path="frameworks/base" name="sp-projectss/frameworks_base" remote="Project" revision="vic" clone-depth="1" />
 
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />

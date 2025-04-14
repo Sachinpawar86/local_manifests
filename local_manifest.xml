@@ -34,11 +34,11 @@
 
 <!-- Frameworks_Base -->
 <remove-project name="frameworks_base" />
-<project path="frameworks/base" name="K4LCHAKRA/frameworks_base" remote="Project" revision="vic"
+<project path="frameworks/base" name="K4LCHAKRA/frameworks_base" remote="Project" revision="vic" />
 
 <!-- packages_apps_Evolver -->         
 <remove-project name="packages_apps_Evolver" />
-<project path="packages/apps/Evolver" name="K4LCHAKRA/packages_apps_Evolver" remote="Project" revision="vic"
+<project path="packages/apps/Evolver" name="K4LCHAKRA/packages_apps_Evolver" remote="Project" revision="vic" />
 
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />

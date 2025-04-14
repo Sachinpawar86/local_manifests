@@ -36,7 +36,7 @@
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="K4LCHAKRA/frameworks_base" remote="Project" revision="vic"
 
-<!--Packages_Apps_Evolver-->
+<!-- Packages_Apps_Evolver -->
 <remove-project name="packages_apps_Evolver" />
 <project path="packages/apps/Evolver" name="K4LCHAKRA/packages_apps_Evolver" remote="Project" revision="vic"
 

@@ -21,5 +21,13 @@
          
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="hardware" clone-depth="1" />
-         
+
+<!-- Build_Soong -->
+<remove-project name="build_soong" />
+<project path="build/soong" name="sp-projectss/build_soong_genesis" remote="Project" revision="verve-qpr2" clone-depth="1" />
+
+<!-- Frameworks_Native -->
+<remove-project name="frameworks_native" />
+<project path="frameworks/native" name="sp-projectss/frameworks_native_genesis" remote="Project" revision="verve-qpr2" clone-depth="1" />
+
 </manifest>

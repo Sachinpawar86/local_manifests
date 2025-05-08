@@ -24,13 +24,8 @@
 
 <!-- Leica Camera -->
 <project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachin" revision="main" clone-depth="1" />
-
-<!-- Frameworks_Native -->
-<remove-project name="frameworks_native" />
-<project path="frameworks/native" name="sp-projectss/frameworks_native" remote="Project" revision="vic" clone-depth="1" />
-
-<!-- Build_Soong -->
-<remove-project name="build_soong" />
-<project path="build/soong" name="sp-projectss/build_soong_evox" remote="Project" revision="vic" clone-depth="1" />
+         
+<!-- ViPER4AndroidFX -->
+<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Sachinpawar86" revision="v4a" clone-depth="1" />
          
 </manifest>

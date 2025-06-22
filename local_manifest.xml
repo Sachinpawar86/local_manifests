@@ -9,8 +9,8 @@
                  fetch="https://github.com" />
          
 <!-- Device Trees -->
-<project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-15-QPR2" clone-depth="1" />
-<project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="Sachinpawar86" revision="Evo-15-QPR2" clone-depth="1" />
+<project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-16" clone-depth="1" />
+<project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="Sachinpawar86" revision="Evo-16" clone-depth="1" />
 
 <!-- Vendor Trees -->
 <project path="vendor/xiaomi/mojito" name="android_vendor_xiaomi_mojito" remote="Sachin" revision="15" clone-depth="1" />
@@ -22,5 +22,4 @@
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="mojito" clone-depth="1" />
 
-         
 </manifest>

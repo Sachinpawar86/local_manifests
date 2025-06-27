@@ -22,12 +22,4 @@
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="16" clone-depth="1" />
 
-<!-- Vendor_Evolution -->
-<remove-project name="vendor_evolution" />
-<project path="vendor/lineage" name="vendor_evolution" remote="Sachinpawar86" revision="bka" clone-depth="1" />
-
-<!-- Build -->         
-<remove-project name="build" />
-<project path="build/make" name="build" remote="Sachinpawar86" revision="bka" clone-depth="1" />
-
 </manifest>

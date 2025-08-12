@@ -23,7 +23,7 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="mojito" clone-depth="1" />
 
 <!-- Leica Camera -->
-<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachin" revision="main" clone-depth="1" />
+<project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera_new" remote="Sachin" revision="main" clone-depth="1" />
 
 <!-- ViPER4AndroidFX -->
 <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" remote="Project" revision="v4a" clone-depth="1" />

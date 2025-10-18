@@ -34,4 +34,12 @@
 <remove-project name="vendor_evolution" />
 <project path="vendor/lineage" name="sp-projectss/vendor_evolution_evo" remote="Project" revision="bka" clone-depth="1" />
 
+<!-- Updater -->
+<remove-project name="packages_apps_Updater" />
+<project path="packages/apps/Updater" name="packages_apps_Updater" remote="Sachinpawar86" revision="bka" clone-depth="1" />
+
+<!-- Gallery -->
+<remove-project name="android_packages_apps_Glimpse" />
+<project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
+
 </manifest>

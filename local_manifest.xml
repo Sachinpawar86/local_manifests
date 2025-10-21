@@ -38,7 +38,4 @@
 <remove-project name="packages_apps_Updater" />
 <project path="packages/apps/Updater" name="packages_apps_Updater" remote="Sachinpawar86" revision="bka" clone-depth="1" />
 
-<!-- Gallery -->
-<project path="packages/apps/Glimpse" name="packages_apps_Glimpse" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
-
 </manifest>

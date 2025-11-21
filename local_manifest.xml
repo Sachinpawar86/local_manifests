@@ -34,8 +34,4 @@
 <remove-project name="vendor_evolution" />
 <project path="vendor/lineage" name="sp-projectss/vendor_evolution_evo" remote="Project" revision="bka" clone-depth="1" />
 
-<!-- Updater -->
-<remove-project name="packages_apps_Updater" />
-<project path="packages/apps/Updater" name="packages_apps_Updater" remote="Sachinpawar86" revision="bka" clone-depth="1" />
-  
 </manifest>

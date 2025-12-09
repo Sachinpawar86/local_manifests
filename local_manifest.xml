@@ -30,8 +30,4 @@
 <!-- ViPER4AndroidFX -->
 <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" remote="Project" revision="v4a" clone-depth="1" />
 
-<!-- Vendor_Evolution -->
-<remove-project name="vendor_evolution" />
-<project path="vendor/lineage" name="sp-projectss/vendor_evolution_evo" remote="Project" revision="bka" clone-depth="1" />
-
 </manifest>

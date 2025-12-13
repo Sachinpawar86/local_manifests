@@ -17,7 +17,7 @@
 <project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
 
 <!-- Kernel -->
-<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
+<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="6.6.77" clone-depth="1" />
 
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />

@@ -27,4 +27,7 @@
 <!-- XiaomiDolby -->
 <project path="packages/apps/XiaomiDolby" name="android_packages_apps_XiaomiDolby" remote="Sachinpawar86" revision="lineage-22.2" clone-depth="1" />
 
+<!-- GameBar -->
+<project path="packages_apps_GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="main" clone-depth="1" />
+
 </manifest>

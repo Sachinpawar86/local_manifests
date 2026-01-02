@@ -3,6 +3,8 @@
          
          <remote name="Sachinpawar86"
                  fetch="https://github.com/Sachinpawar86" />
+         <remote name="Github"
+                 fetch="https://github.com/RisingOS-Revived-devices" />
          <remote name="Sachin"
                  fetch="https://gitlab.com/sachinbarange86" />
          <remote name="Project"
@@ -14,7 +16,7 @@
 <project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="Sachinpawar86" revision="Infinity-16" clone-depth="1" />
 
 <!-- Vendor Tree -->
-<project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
+<project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Github" revision="lineage-23.0" clone-depth="1" />
 
 <!-- Kernel -->
 <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="6.6.77" clone-depth="1" />

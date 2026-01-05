@@ -24,8 +24,8 @@
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
 
-<!-- Dolby -->
-<project path="hardware/dolby" name="hardware_dolby" remote="Sachinpawar86" revision="16" clone-depth="1" />
+<!-- XiaomiDolby -->
+<project path="packages/apps/XiaomiDolby" name="android_packages_apps_XiaomiDolby" remote="Sachinpawar86" revision="lineage-22.2" clone-depth="1" />
 
 <!-- GameBar -->
 <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="main" clone-depth="1" />

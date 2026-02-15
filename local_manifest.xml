@@ -11,21 +11,18 @@
                  fetch="https://gitlab.com" />
          
 <!-- Device Tree -->
-<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="Sachinpawar86" revision="test" clone-depth="1" />
+<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="Sachinpawar86" revision="Lunaris-16-QPR2" clone-depth="1" />
 
 <!-- Vendor Tree -->
-<project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
+<project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Sachin" revision="lineage-23.2" clone-depth="1" />
 
 <!-- Kernel -->
-<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="6.6.77" clone-depth="1" />
+<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
 
 <!-- Hardware -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.0" clone-depth="1" />
-
-<!-- XiaomiDolby -->
-<project path="packages/apps/XiaomiDolby" name="android_packages_apps_XiaomiDolby" remote="Sachinpawar86" revision="lineage-22.2" clone-depth="1" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
 
 <!-- GameBar -->
-<project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="main" clone-depth="1" />
+<project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="master" clone-depth="1" />
 
 </manifest>

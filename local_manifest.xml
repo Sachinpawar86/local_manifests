@@ -25,4 +25,7 @@
 <!-- GameBar -->
 <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="master" clone-depth="1" />
 
+<!-- Dolby -->
+<project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="Sachinpawar86" revision="16.0" clone-depth="1" />
+         
 </manifest>

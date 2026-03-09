@@ -19,7 +19,7 @@
 <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="Gitlab" revision="16" clone-depth="1" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="Sachinpawar86" revision="Evo-16-QPR2" clone-depth="1" />
+<project path="kernel/xiaomi/mojito" name="kernel_xiaomi_mojito" remote="Sachinpawar86" revision="crDroid" clone-depth="1" />
          
 <!-- Hardware -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi_mojito" remote="Sachinpawar86" revision="mojito" clone-depth="1" />

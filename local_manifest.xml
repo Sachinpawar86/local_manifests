@@ -32,6 +32,6 @@
 
 <!-- Frameworks_Native -->
 <remove-project name="frameworks_native" />
-<project path="frameworks/native" name="sp-projectss/android_frameworks_native" remote="Project" revision="16.0" clone-depth="1" />         
+<project path="frameworks/native" name="sp-projectss/android_frameworks_native" remote="Project" revision="16.0" clone-depth="1" />
 
 </manifest>

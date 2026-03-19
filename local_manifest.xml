@@ -30,4 +30,10 @@
 <!-- ViPER4AndroidFX -->
 <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" remote="Project" revision="v4a" clone-depth="1" />
 
+<!-- GameBar -->
+<project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="master" clone-depth="1" />
+
+<!-- Dolby -->
+<project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Sachinpawar86" revision="sixteen-redesign" clone-depth="1" />
+
 </manifest>

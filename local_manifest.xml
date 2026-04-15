@@ -27,7 +27,4 @@
 <!-- Leica Camera -->
 <project path="vendor/xiaomi/mojito-leicacamera" name="android_vendor_xiaomi_mojito-leicacamera" remote="Sachin" revision="main" clone-depth="1" />
 
-<!-- Dolby -->
-<project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Sachinpawar86" revision="sixteen-redesign" clone-depth="1" />
-
 </manifest>

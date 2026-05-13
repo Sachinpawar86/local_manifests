@@ -28,6 +28,10 @@
 <!-- Dolby -->
 <project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="Sachinpawar86" revision="16.0" clone-depth="1" />
 
+<!-- Camera -->
+<project path="device/xiaomi/miuicamera-onyx" name="android_device_xiaomi_miuicamera-onyx" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
+<project path="vendor/xiaomi/miuicamera-onyx" name="miuicamera-onyx" remote="Sachin" revision="lineage-23.2" clone-depth="1" />
+
 <!-- SEPolicy -->
 <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
 

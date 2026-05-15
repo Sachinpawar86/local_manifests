@@ -28,4 +28,15 @@
 <!-- Dolby -->
 <project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="Sachinpawar86" revision="16.0" clone-depth="1" />
 
+<!-- SEPolicy -->
+<remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+
+<project
+    path="device/qcom/sepolicy_vndr/sm8750"
+    name="K4LCHAKRA/android_device_qcom_sepolicy_vndr"
+    remote="Project"
+    revision="lineage-23.0-caf-sm8750"
+    clone-depth="1"
+    groups="qcom,pakala-vendor" />
+
 </manifest>

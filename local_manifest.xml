@@ -13,6 +13,7 @@
             fetch="https://codeberg.org" />
 
     <!-- Framework -->
+    <remove-project name="frameworks_native" />
     <project path="frameworks/native"
              name="frameworks_native"
              remote="Sachinpawar86"

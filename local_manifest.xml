@@ -13,13 +13,15 @@
             fetch="https://codeberg.org" />
 
     <!-- Framework -->
-    <remove-project name="frameworks_native" />
-    <project path="frameworks/native"
-             name="frameworks_native"
-             remote="Sachinpawar86"
-             revision="16.2"
-             clone-depth="1" />
+   <remove-project name="Lunaris-AOSP/frameworks_native" />
 
+    <project
+        path="frameworks/native"
+        name="frameworks_native"
+        remote="Sachinpawar86"
+        revision="16.2"
+        clone-depth="1" />
+ 
     <!-- Device Trees -->
     <project path="device/xiaomi/mojito"
              name="device_xiaomi_mojito"

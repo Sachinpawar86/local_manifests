@@ -20,7 +20,7 @@
 <project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
 
 <!-- Hardware -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
+<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="Project" revision="lineage-23.2" clone-depth="1" />
 
 <!-- GameBar -->
 <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="master" clone-depth="1" />
@@ -28,8 +28,11 @@
 <!-- Dolby -->
 <project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="Sachinpawar86" revision="16.0" clone-depth="1" />
 
+<!-- NotGameTurbo -->
+<project path="packages/apps/NotGameTurbo" name="android_packages_apps_NotGameTurbo" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
+         
 <!-- Miui Camera  -->
-<project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="Sachinpawar86" revision="lineage-23.2" />         
+<project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="Sachinpawar86" revision="lineage-23.2" />
 
 <!-- Miui Camera  -->
 <project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="Sachin" revision="sixteen-qpr2" />

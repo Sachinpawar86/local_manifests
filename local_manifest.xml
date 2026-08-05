@@ -1,37 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-         
-         <remote name="Sachinpawar86"
-                 fetch="https://github.com/Sachinpawar86" />
-         <remote name="Sachin"
-                 fetch="https://gitlab.com/sachinbarange86" />
-         <remote name="Project"
-                 fetch="https://github.com" />
-         <remote name="Gitlab"
-                 fetch="https://gitlab.com" />
-         
-<!-- Device Tree -->
-<project path="device/xiaomi/onyx" name="android_device_xiaomi_onyx" remote="Sachinpawar86" revision="Lunaris-16-QPR2" clone-depth="1" />
 
-<!-- Vendor Tree -->
-<project path="vendor/xiaomi/onyx" name="proprietary_vendor_xiaomi_onyx" remote="Sachin" revision="lineage-23.2" clone-depth="1" />
+    <!-- Remotes -->
+    <remote name="Sachinpawar86"
+        fetch="https://github.com/Sachinpawar86" />
 
-<!-- Kernel -->
-<project path="device/xiaomi/onyx-kernel" name="android_device_xiaomi_onyx-kernel" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
+    <remote name="Sachin"
+        fetch="https://gitlab.com/sachinbarange86" />
 
-<!-- Hardware -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi_onyx" remote="Sachinpawar86" revision="lineage-23.2" clone-depth="1" />
+    <remote name="Project"
+        fetch="https://github.com" />
 
-<!-- GameBar -->
-<project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="Sachinpawar86" revision="master" clone-depth="1" />
+    <remote name="Gitlab"
+        fetch="https://gitlab.com" />
 
-<!-- Dolby -->
-<project path="packages/apps/LunarisDolby" name="packages_apps_LunarisDolby" remote="Sachinpawar86" revision="16.0" clone-depth="1" />
+    <!-- Device Tree -->
+    <project
+        path="device/xiaomi/onyx"
+        name="android_device_xiaomi_onyx"
+        remote="Sachinpawar86"
+        revision="Lunaris-16-QPR2-oss"
+        clone-depth="1" />
 
-<!-- Miui Camera  -->
-<project path="device/xiaomi/onyx-miuicamera" name="android_device_xiaomi_onyx-miuicamera" remote="Sachinpawar86" revision="lineage-23.2" />         
+    <!-- Vendor Tree -->
+    <project
+        path="vendor/xiaomi/onyx"
+        name="proprietary_vendor_xiaomi_onyx"
+        remote="Sachin"
+        revision="lineage-23.2-oss"
+        clone-depth="1" />
 
-<!-- Miui Camera  -->
-<project path="vendor/xiaomi/onyx-miuicamera" name="proprietary_vendor_xiaomi_onyx-miuicamera" remote="Sachin" revision="sixteen-qpr2" />
+    <!-- Kernel Source -->
+    <project
+        path="kernel/xiaomi/sm8735"
+        name="android_kernel_xiaomi_sm8735"
+        remote="Sachinpawar86"
+        revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- Kernel Modules -->
+    <project
+        path="kernel/xiaomi/sm8735-modules"
+        name="android_kernel_xiaomi_sm8735-modules"
+        remote="Sachinpawar86"
+        revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- Kernel Devicetrees -->
+    <project
+        path="kernel/xiaomi/sm8735-devicetrees"
+        name="android_kernel_xiaomi_sm8735-devicetrees"
+        remote="Sachinpawar86"
+        revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- Hardware -->
+    <project
+        path="hardware/xiaomi"
+        name="LineageOS/android_hardware_xiaomi"
+        remote="Project"
+        revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- GameBar -->
+    <project
+        path="packages/apps/GameBar"
+        name="packages_apps_GameBar"
+        remote="Sachinpawar86"
+        revision="master"
+        clone-depth="1" />
+
+    <!-- NotGameTurbo -->
+    <project
+        path="packages/apps/NotGameTurbo"
+        name="android_packages_apps_NotGameTurbo"
+        remote="Sachinpawar86"
+        revision="lineage-23.2"
+        clone-depth="1" />    
+
+    <!-- MIUI Camera Device -->
+    <project
+        path="device/xiaomi/onyx-miuicamera"
+        name="android_device_xiaomi_onyx-miuicamera"
+        remote="Sachinpawar86"
+        revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- MIUI Camera Vendor -->
+    <project
+        path="vendor/xiaomi/onyx-miuicamera"
+        name="proprietary_vendor_xiaomi_onyx-miuicamera"
+        remote="Sachin"
+        revision="sixteen-qpr2"
+        clone-depth="1" />
 
 </manifest>

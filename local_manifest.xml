@@ -19,7 +19,7 @@
         path="device/xiaomi/onyx"
         name="android_device_xiaomi_onyx"
         remote="Sachinpawar86"
-        revision="Lunaris-16-QPR2-oss"
+        revision="Lunaris-16-QPR2-OSS"
         clone-depth="1" />
 
     <!-- Vendor Tree -->
@@ -27,7 +27,7 @@
         path="vendor/xiaomi/onyx"
         name="proprietary_vendor_xiaomi_onyx"
         remote="Sachin"
-        revision="lineage-23.2-oss"
+        revision="lineage-23.2"
         clone-depth="1" />
 
     <!-- Kernel Source -->
@@ -60,6 +60,14 @@
         name="LineageOS/android_hardware_xiaomi"
         remote="Project"
         revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- Dolby -->
+    <project
+        path="packages/apps/LunarisDolby"
+        name="packages_apps_LunarisDolby"
+        remote="Sachinpawar86"
+        revision="16.0"
         clone-depth="1" />
 
     <!-- GameBar -->

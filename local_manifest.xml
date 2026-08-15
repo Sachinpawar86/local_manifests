@@ -27,7 +27,7 @@
         path="vendor/xiaomi/onyx"
         name="proprietary_vendor_xiaomi_onyx"
         remote="Sachin"
-        revision="lineage-23.2-oss"
+        revision="lineage-23.2-OSS"
         clone-depth="1" />
 
     <!-- Kernel Source -->

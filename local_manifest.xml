@@ -32,24 +32,24 @@
 
     <!-- Kernel Source -->
     <project
-        path="kernel/xiaomi/sm8735"
-        name="android_kernel_xiaomi_sm8735"
+        path="kernel/xiaomi/onyx"
+        name="android_kernel_xiaomi_onyx"
         remote="Sachinpawar86"
         revision="lineage-23.2"
         clone-depth="1" />
 
     <!-- Kernel Modules -->
     <project
-        path="kernel/xiaomi/sm8735-modules"
-        name="android_kernel_xiaomi_sm8735-modules"
+        path="kernel/xiaomi/onyx-modules"
+        name="android_kernel_xiaomi_onyx-modules"
         remote="Sachinpawar86"
         revision="lineage-23.2"
         clone-depth="1" />
 
     <!-- Kernel Devicetrees -->
     <project
-        path="kernel/xiaomi/sm8735-devicetrees"
-        name="android_kernel_xiaomi_sm8735-devicetrees"
+        path="kernel/xiaomi/onyx-devicetrees"
+        name="android_kernel_xiaomi_onyx-devicetrees"
         remote="Sachinpawar86"
         revision="lineage-23.2"
         clone-depth="1" />
@@ -57,9 +57,17 @@
     <!-- Hardware -->
     <project
         path="hardware/xiaomi"
-        name="LineageOS/android_hardware_xiaomi"
-        remote="Project"
+        name="android_hardware_xiaomi_onyx"
+        remote="Sachinpawar86"
         revision="lineage-23.2"
+        clone-depth="1" />
+
+    <!-- Dolby -->
+    <project
+        path="packages/apps/LunarisDolby"
+        name="packages_apps_LunarisDolby"
+        remote="Sachinpawar86"
+        revision="16.0"
         clone-depth="1" />
 
     <!-- GameBar -->

@@ -19,7 +19,7 @@
         path="device/xiaomi/onyx"
         name="android_device_xiaomi_onyx"
         remote="Sachinpawar86"
-        revision="Lunaris-16-QPR2-OSS"
+        revision="wip"
         clone-depth="1" />
 
     <!-- Vendor Tree -->

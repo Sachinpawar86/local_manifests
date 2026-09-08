@@ -102,4 +102,13 @@
         revision="sixteen-qpr2"
         clone-depth="1" />
 
+   <!-- Bionic -->
+   <remove-project name="Lunaris-AOSP/bionic" />
+   <project
+        path="bionic"
+        name="bionic"
+        remote="Sachinpawar86"
+        revision="16.2"
+        clone-depth="1" />
+
 </manifest>

@@ -11,6 +11,9 @@
     <remote name="Project"
         fetch="https://github.com" />
 
+    <remote name="sp-projectss"
+        fetch="https://github.com" />
+
     <remote name="Gitlab"
         fetch="https://gitlab.com" />
 
@@ -109,6 +112,15 @@
         name="bionic"
         remote="Sachinpawar86"
         revision="16.2"
+        clone-depth="1" />
+
+    <!-- Vendor Lineage-->
+    <remove-project name="Lunaris-AOSP/vendor_lineage" />
+    <project
+        path="vendor/lineage"
+        name="sp-projectss/vendor_lineage"
+        remote="sp-projectss"
+        revision="fix-dtbo-cycle"
         clone-depth="1" />
 
 </manifest>

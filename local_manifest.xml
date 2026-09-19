@@ -120,7 +120,7 @@
         path="vendor/lineage"
         name="sp-projectss/vendor_lineage"
         remote="sp-projectss"
-        revision="fix-dtbo-cycle"
+        revision="16.2"
         clone-depth="1" />
 
 </manifest>

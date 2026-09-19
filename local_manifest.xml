@@ -14,11 +14,10 @@
 
     <!-- Framework -->
    <remove-project name="Lunaris-AOSP/frameworks_native" />
-
-    <project
+   <project
         path="frameworks/native"
-        name="frameworks_native"
-        remote="Sachinpawar86"
+        name="sp-projectss/frameworks_native_luna"
+        remote="Project"
         revision="16.2"
         clone-depth="1" />
  

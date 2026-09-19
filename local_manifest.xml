@@ -109,8 +109,8 @@
    <remove-project name="Lunaris-AOSP/bionic" />
    <project
         path="bionic"
-        name="bionic"
-        remote="Sachinpawar86"
+        name="sp-projectss/bionic"
+        remote="sp-projectss"
         revision="16.2"
         clone-depth="1" />
 

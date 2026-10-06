@@ -109,7 +109,7 @@
    <remove-project name="Lunaris-AOSP/bionic" />
    <project
         path="bionic"
-        name="sp-projectss/bionic"
+        name="sp-projectss/bionic_luna"
         remote="sp-projectss"
         revision="16.2"
         clone-depth="1" />
@@ -118,7 +118,7 @@
     <remove-project name="Lunaris-AOSP/vendor_lineage" />
     <project
         path="vendor/lineage"
-        name="sp-projectss/vendor_lineage"
+        name="sp-projectss/vendor_lineage_luna"
         remote="sp-projectss"
         revision="16.2"
         clone-depth="1" />
